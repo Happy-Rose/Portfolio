@@ -5,107 +5,106 @@ body {
 }
 
 header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: white;
-      padding: 4% 6%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 4% 6%;
 }
 
 .nav-links {
-      display: none;
-      gap: 32px;
+        display: none;
+        gap: 32px;
 }
 
 .menu {
-      display: flex;
+        display: flex;
 }
 
 .logo {
-      color: #6070ff;
-      font-weight: 700;
-      font-size: 112.5%;
-      text-decoration: none;
-      padding: 0;
+        color: #6070ff;
+        font-weight: 700;
+        font-size: 112.5%;
+        text-decoration: none;
+        padding: 0;
 }
 
 nav a {
-      color: #344563;
-      font-size: 10px;
-      font-weight: 700;
-      text-decoration: none;
+        color: #344563;
+        font-size: 10px;
+        font-weight: 700;
+        text-decoration: none;
 }
 
 .intro {
-      display: flex;
-      flex-direction: column;
-      background-color: #fff;
-      border-bottom-left-radius: 18%;
-      padding: 5% 18% 5%;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
-      background-image: url(images/Header\ bg.svg);
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-bottom-left-radius: 18%;
+        padding: 5% 18% 5%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-image: url(images/Header\ bg.svg);
 }
 
 .intro h1 {
-      font-size: 250%;
-      color: #091e42;
-      font-weight: 700;
-      letter-spacing: 0.37px;
-      vertical-align: middle;
-      margin: 0%;
+        font-size: 250%;
+        color: #091e42;
+        font-weight: 700;
+        letter-spacing: 0.37px;
+        vertical-align: middle;
+        margin: 0%;
 }
 
 .intro p {
-      font-size: 15px;
-      color: #344563;
-      font-weight: 400;
-      letter-spacing: 0%;
+        font-size: 15px;
+        color: #344563;
+        font-weight: 400;
+        letter-spacing: 0%;
 }
 
 .intro .connect {
-      font-size: 16px;
-      color: #7f8Cff;
-      font-weight: 500;
-      margin: 0%;
-      
+        font-size: 16px;
+        color: #7f8Cff;
+        font-weight: 500;
+        margin: 0%;
 }
 
 .social-icons {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      list-style: none;
-      padding: 0;
-      width: 55%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        width: 55%;
 }
 
 nav a:hover,
 .logo:hover,
 .hamburger:hover,
 .social-icons a:hover {
-        opacity: 0.7;
-        transition: 0.2s ease-in-out;
+          opacity: 0.7;
+          transition: 0.2s ease-in-out;
 }
 
 @media (min-width: 768px) {
-      .menu {
-            display: none;
-      }
+        .menu {
+                display: none;
+        }
 
-      .nav-links {
-            display: flex;
-            gap: 15%;
-      }
+        .nav-links {
+                display: flex;
+                gap: 15%;
+        }
 
-      .intro {
-            padding: 12% 18% 15%;
-            background-image: url("images/Header bg.svg");
-            background-size: contain;
-      }
+        .intro {
+                padding: 12% 18% 15%;
+                background-image: url("images/Header bg.svg");
+                background-size: contain;
+        }
 
-    .social-icons {
-            width: 15%;
-      }
+       .social-icons {
+                width: 15%;
+        }
 }
